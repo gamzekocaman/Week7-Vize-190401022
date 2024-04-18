@@ -8,16 +8,21 @@ output:
 
 ## Q1 İş, problem ve ihtiyaç tanımı
 
+İş tanımı;"BookReco" isimli şirketim kişilerin yaşları ve puanlamalar doğrulrusunda öneleri sunan bir uygulamadır.
+
 ### Problem ve ihtiyaç
 
+Problem ve ihtiyaç tanımı; Problem, milyonlarca kitap arasından okuyucuların kolay seçim yapamaması ve diğer okuyucuların değerlendirmelerine ihtiyaç duymaları
+
 ### Çözüm önerisi - Veri Seti tanımı
-Bulduğunuz ve kullanacağınız veri setini ve kullanacağınız parametreleri kısaca anlatın.
+Veri seti tanımı: inst/exdata altında bulunan books, ratings ve users verisetlerini kullanarak; books verisetinden ISBN/Book , ratings verisetinden User-ID/ISBN/Book-Rating ve users veri setinden User-ID/Age sütunlarını kullanarak kitap isimlerini ve aldıkları değerlendirme puanlarını kullanacağız.
 
 ### Çözüm önerisi - Planlanan analiz (özet)
-Yapmayı planladığınız analizi kısaca anlatın.
+Planlanan Analiz: Kullanıcı yaşları ve kitaplara verdikleri değerlendirme notlarını kullanarak belirli yaş aralıklarındaki okuyucuların 5'ten fazla puan verdikleri kitapları listelemek.
 
 ### Çözüm önerisi - Planlanan analiz sonuçları
-Hesaplanacak KPI'lar ya da bulmayı planladığınız rapor sonuçlarını analiz öncesinde burada kısaca anlatın.
+Planlanan Analiz Sonuçları:Yakın yaş aralığındaki okuyucuların beğendikleri kitapları listeleyerek beğenebilecekleri kitap önerisinde bulunmak.
+
 
 
 ## Q2 - Veri İthali
@@ -44,4 +49,5 @@ Hesaplanacak KPI'lar ya da bulmayı planladığınız rapor sonuçlarını anali
 ```
 
 ## Q5 : Sonuçlar ve değerlendirmeler
+Değerlendirme: Sadece planlama kısmını yaptığım için istenilen sonuca ulaşamadım.
 
